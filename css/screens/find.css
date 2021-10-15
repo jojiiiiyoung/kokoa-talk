@@ -1,22 +1,3 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i {
-  font-size: 40px;
-}
-
-.find-icons__icon span {
-  margin-top: 15px;
-}
-
 .recommended-friends {
   border-top: var(--border-gray);
   border-bottom: var(--border-gray);
@@ -89,7 +70,7 @@
 }
 
 .open-post__member-status {
-  color: #ffb0e0;
+  color: var(--pink);
 }
 
 .open-post__photo {
